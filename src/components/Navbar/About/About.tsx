@@ -2,9 +2,9 @@ import React from 'react'
 import { Box, Button, IconButton, Image, Link, Stack, Text } from '@chakra-ui/react'
 import { FaHtml5, FaCss3Alt, } from 'react-icons/fa'
 import { SiJavascript } from 'react-icons/si'
-import Nahu1 from '../assets/nahu.jpeg'
+import Nahu1 from '../../../assets/nahu.jpeg'
 import Nahu2 from '../../../assets/nahu2.jpg'
-import Nahu3 from '../assets/nahu3.jpeg'
+import Nahu3 from '../../../assets/nahu3.jpeg'
 
 const About = () => {
     return (
@@ -22,7 +22,7 @@ const About = () => {
                 </Stack>
 
                 <Stack>
-                    <Image src={Nahu2} w="600" h="700" objectFit="contain"></Image>
+                    <Image src={Nahu1} w="600" h="700" objectFit="contain"></Image>
                 </Stack>
             </Stack>
         </Box>
