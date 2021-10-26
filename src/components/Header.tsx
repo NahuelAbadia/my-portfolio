@@ -1,16 +1,15 @@
 import React from 'react'
 import { Box, Button, IconButton, Image, Link, Stack, Text } from '@chakra-ui/react'
-import { FaGithub, FaLinkedin, FaLinkedinIn } from 'react-icons/fa'
+import { FaGithub, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import Typewriter from 'typewriter-effect'
 import Nahu1 from '../assets/nahu.jpeg'
 import Nahu2 from '../assets/nahu2.jpg'
 import Nahu3 from '../assets/nahu3.jpeg'
 
 const Header = () => {
-
     return (
         <Box>
-            <Stack pt={8}>
+            <Stack pt={8} pb={16}>
                 <Stack direction="row" justify="space-between">
 
                     <Stack pt={32}>
@@ -35,7 +34,9 @@ const Header = () => {
                         </Stack>
 
                         <Stack direction="row" pt={5}>
-                            <Button size="lg" colorScheme="cyan" >Hire me</Button>
+                            <Link href="mailto:nahuabadia@gmail.com">
+                                <Button size="lg" colorScheme="cyan">Hire me</Button>
+                            </Link>
                         </Stack>
 
                         <Stack direction="row" pt={8} spacing={4}>
@@ -44,6 +45,9 @@ const Header = () => {
                             </Link>
                             <Link href="https://github.com/NahuelAbadia/" isExternal>
                                 <IconButton icon={<FaGithub />} variant="outline" aria-label="Github"></IconButton>
+                            </Link>
+                            <Link href="https://www.instagram.com/nahue.abadia/" isExternal>
+                                <IconButton icon={<FaInstagram />} variant="outline" aria-label="Instagram"></IconButton>
                             </Link>
                         </Stack>
                     </Stack>
