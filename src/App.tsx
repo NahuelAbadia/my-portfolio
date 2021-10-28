@@ -7,7 +7,7 @@ import ScrollToHome from './components/ScrollToHome';
 import Projects from './components/Navbar/Projects/Projects';
 import Contact from './components/Navbar/Contact/Contact';
 import Footer from './components/Footer';
-import { Box, Container, Divider, Stack, Text } from '@chakra-ui/react';
+import { Box, Container, Divider, Stack, } from '@chakra-ui/react';
 
 function App() {
   return (

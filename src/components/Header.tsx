@@ -11,6 +11,7 @@ const Header = () => {
         <Box>
             <Stack pt={8} pb={16}>
                 <Stack direction="row" justify="space-between">
+                {/* <Stack direction="row" justify="space-between" bgImage={Nahu3} w="700" h="900"> ver como hago para poner la foto a la derecha */}
 
                     <Stack pt={32}>
                         <Stack spacing={-1}>
@@ -34,7 +35,7 @@ const Header = () => {
                         </Stack>
 
                         <Stack direction="row" pt={5}>
-                            <Link href="mailto:nahuabadia@gmail.com">
+                            <Link href="mailto:nahuabadia@gmail.com" style={{textDecoration: 'none'}}>
                                 <Button size="lg" colorScheme="cyan">Hire me</Button>
                             </Link>
                         </Stack>
@@ -52,7 +53,7 @@ const Header = () => {
                         </Stack>
                     </Stack>
 
-                    <Stack direction="row" justify="flex-end">
+                    <Stack direction="row">
                         <Image src={Nahu3} w="600" h="700" borderRadius="25px" objectFit="contain" ></Image>
                     </Stack>
 

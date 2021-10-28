@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Link, Stack, Text } from '@chakra-ui/react'
+import { Box, IconButton, Link, Stack, Text } from '@chakra-ui/react'
 import { useColorMode } from '@chakra-ui/color-mode'
 import { FaMoon, FaSun, } from 'react-icons/fa'
 
@@ -21,7 +21,7 @@ const Navbar = () => {
         window.scroll({ top: 2050, behavior: "smooth" })
     }
     const scrollContact = () => {
-        window.scroll({ top: 2250, behavior: "smooth" })
+        window.scroll({ top: 3200, behavior: "smooth" })
     }
 
     return (
@@ -48,9 +48,11 @@ const Navbar = () => {
                     <Link onClick={scrollContact}>
                         <Text cursor="pointer">Contact</Text>
                     </Link>
+
                     {/* <Stack direction="row">
                         <IconButton aria-label="Change Color" borderRadius={15} icon={isDark ? <FaSun /> : <FaMoon />} onClick={toggleColorMode}></IconButton>
                     </Stack> */}
+                    
                 </Stack>
 
             </Stack>

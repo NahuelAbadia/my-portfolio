@@ -12,6 +12,8 @@ const Skills = () => {
                     <Text fontSize="4xl" fontWeight="semibold">{"<"}My Skills{" />"}</Text>
                 </Stack>
 
+                <Text fontSize="lg">These are some of my skills</Text>
+
                 <Stack direction="row" spacing={14} pt={8}>
                     <Icon as={FaHtml5} h={24} w={24} textColor="orange.500"></Icon>
                     <Icon as={FaCss3Alt} h={24} w={24} textColor="#00A0E4"></Icon>

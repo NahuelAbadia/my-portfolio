@@ -15,11 +15,11 @@ const About = () => {
 
                 <Stack pl={10} spacing={10}>
                     <Text fontSize="3xl" fontWeight="semibold">{"<"}Sobre mi{" />"}</Text>
-                    <Text fontSize="2xl">Desarrollador Web / Estudiante de Ingeniería en Sistemas.</Text>
-                    <Text>Mi nombre es Nahuel Abadía, soy un desarrollador web junior autodidacta y apasionado por lo que hago. Tengo iniciativa para llevar a cabo trabajos en equipo.</Text>
-                    <Text>Estoy en búsqueda de mi primer empleo en desarrollo web, donde pueda aplicar mis conocimientos y habilidades para seguir mejorando día a día.</Text>
+                    <Text fontSize="2xl">Desarrollador Web</Text>
+                    <Text>Mi nombre es Nahuel Abadía, soy un desarrollador frontend y apasionado por lo que hago. Tengo iniciativa para llevar a cabo trabajos en equipo.</Text>
+                    <Text>Estoy constantemente en búsqueda de nuevos conocimientos para así mejorar día a día tanto mis proyectos personales como en lo laboral.</Text>
                     <Text>También considero que poseo un buen ojo para la parte de testing a la hora de detectar y corregir problemas o desperfectos que una página pueda llegar a tener.</Text>
-                    <Link pt={4}>
+                    <Link pt={4} style={{textDecoration: 'none'}}>
                         <Button>Download CV</Button>
                     </Link>
                 </Stack>
