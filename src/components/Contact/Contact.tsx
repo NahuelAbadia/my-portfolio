@@ -1,13 +1,13 @@
 import React from 'react'
 import { Container, Flex, Box, Heading, Text, IconButton, Button, VStack, HStack, Wrap, WrapItem, 
-  FormControl, FormLabel, Input, InputGroup, InputLeftElement, Textarea, } from '@chakra-ui/react';
+  FormControl, FormLabel, Input, InputGroup, InputLeftElement, Textarea, Stack, } from '@chakra-ui/react';
 import { MdPhone, MdEmail, MdLocationOn, MdFacebook, MdOutlineEmail,} from 'react-icons/md';
 import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
   
   export default function contact() {
     return (
-      <Container maxW="full" mt={0} centerContent overflow="hidden" pt={10}>
-        <Flex>
+      <Container maxW="container.xl" mt={0} overflow="hidden" pt={10}>
+        <Stack align="flex-end" >
           <Box
             bg="#282B59"
             color="white"
@@ -96,7 +96,7 @@ import { BsGithub, BsDiscord, BsPerson } from 'react-icons/bs';
               </Wrap>
             </Box>
           </Box>
-        </Flex>
+        </Stack>
       </Container>
     );
   }
